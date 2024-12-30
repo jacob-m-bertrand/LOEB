@@ -1,0 +1,123 @@
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family:'Poppins', sans-serif;
+}
+
+header {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+    margin-bottom:2.5%;
+}
+
+#landingPic {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.box {
+    display: flex;
+    position: absolute;
+    color: black;
+    width: 65%;
+    text-align: left;
+    flex-direction: column;
+    left:17.5%;
+}
+
+#textBox {
+    top: 35%;
+    color:white;
+    width:100%;
+    left:0%;
+    text-align:center;
+}
+
+#landingText {
+    font-size: 4.4em;
+    margin-bottom: 0.45%;
+}
+#landingSub {
+    font-size: 1.5em;
+}
+
+#contentBox {
+    top:115%;
+}
+
+#arrow {
+    width:3.5%;
+    position: relative;
+    left:48.25%;
+    margin-top: 12.5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.pic {
+    position:relative;
+    left:12.5%;
+    width: 75%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#mLandingPic {
+    display:none;    
+}
+
+@media only screen and (max-width: 1500px) {
+    .box {
+        width:95%;
+        left:2.5%;
+        top: 115%;
+    }
+
+    #landingText {
+        font-size: 2.8em;
+        margin-bottom: 0.45%;
+    }
+    #landingSub {
+        font-size: 1.2em;
+    }
+    
+    #textBox {
+        top:25%;
+    }
+
+    p {
+        font-size: 1em;
+        margin-bottom: 5%;
+    }
+    header {
+        font-size: 2em;
+    }
+
+    .pic {
+        width:100%;
+        left:0%;
+    }
+
+    #landingPic {
+        display:none;
+    }
+
+    #mLandingPic {
+        display:block;
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    #arrow {
+        width: 12.5%;
+        left: 43.75%;
+        margin-top: 45%;
+    }
+}
